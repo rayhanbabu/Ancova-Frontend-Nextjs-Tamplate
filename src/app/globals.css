@@ -66,3 +66,21 @@ body {
   width: 100%;
   min-height: 50vh;
 }
+
+.testimonial{
+  background-image: url("https://next.aglietech.wowtheme7.com/assets/img/bg/13.png");
+  background-size: cover;
+  background-position: center;
+}
+.slick-dots{
+  margin-top: 20px !important;
+}
+.slick-dot-{
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+}
+li.slick-active > .slick-dot-{
+  background-color: var(--main-color);
+}
